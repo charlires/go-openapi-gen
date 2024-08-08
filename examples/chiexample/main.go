@@ -6,10 +6,10 @@ import (
 	"net/http"
 
 	"github.com/a-h/respond"
-	"github.com/a-h/rest"
-	"github.com/a-h/rest/chiadapter"
-	"github.com/a-h/rest/examples/chiexample/models"
-	"github.com/a-h/rest/swaggerui"
+	"github.com/charlires/go-openapi-gen"
+	"github.com/charlires/go-openapi-gen/chiadapter"
+	"github.com/charlires/go-openapi-gen/examples/chiexample/models"
+	"github.com/charlires/go-openapi-gen/swaggerui"
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/go-chi/chi/v5"
 )

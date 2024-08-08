@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/a-h/rest"
+	"github.com/charlires/go-openapi-gen"
 	"github.com/go-chi/chi/v5"
 )
 
