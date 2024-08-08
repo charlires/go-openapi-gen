@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/a-h/respond"
-	"github.com/charlires/go-openapi-gen"
+	rest "github.com/charlires/go-openapi-gen"
 	"github.com/charlires/go-openapi-gen/chiadapter"
 	"github.com/charlires/go-openapi-gen/examples/chiexample/models"
 	"github.com/charlires/go-openapi-gen/swaggerui"
