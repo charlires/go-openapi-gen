@@ -1,4 +1,4 @@
-module github.com/a-h/rest
+module github.com/charlires/go-openapi-gen
 
 go 1.21
 

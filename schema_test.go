@@ -472,7 +472,7 @@ func TestSchema(t *testing.T) {
 				defer wg.Done()
 				// Create the API.
 				api := NewAPI(test.name, test.opts...)
-				api.StripPkgPaths = []string{"github.com/a-h/rest"}
+				api.StripPkgPaths = []string{"github.com/charlires/go-openapi-gen"}
 				// Configure it.
 				test.setup(api)
 				// Create the actual spec.
